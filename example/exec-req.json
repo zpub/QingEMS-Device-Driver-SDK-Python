@@ -1,0 +1,19 @@
+{
+    "version": 1,
+    "jsonrpc": "2.0",
+    "id": 1,
+
+    "method": "execCommand",
+
+    "params": {
+        "type": 1,
+        "producer": "skiffenergy",
+        "model": "QingEMS",
+
+        "cmd": "system_start",
+        "args": [
+            "MTIzNDU2Nzg5MA==",
+            "MTIzNDU2Nzg5MA=="
+        ]
+    }
+}

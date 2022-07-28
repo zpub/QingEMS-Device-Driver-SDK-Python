@@ -1,0 +1,30 @@
+{
+    "version": 1,
+    "jsonrpc": "2.0",
+    "id": 1,
+
+    "method": "parseDeviceData",
+    "params": {
+        "type": 1,
+        "producer": "skiffenergy",
+        "model": "QingEMS",
+
+        "space": 1,
+        "segment": [
+            {
+                "addr_begin": 0,
+                "addr_end": 5,
+                "width": 16,
+                "space": 0,
+                "data": "MTIzNDU2Nzg5MA=="
+            },
+            {
+                "addr_begin": 90,
+                "addr_end": 95,
+                "width": 16,
+                "space": 0,
+                "data": "MTIzNDU2Nzg5MA=="
+            }
+        ]
+    }
+}
